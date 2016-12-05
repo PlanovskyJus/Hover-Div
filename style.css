@@ -1,0 +1,83 @@
+body{
+    font-size: 0;
+    margin: 0;
+    background-color: red;
+}
+body > * {font-size: 1rem;}
+/*All of the main boxes*/
+#container{
+    background-color: orange;
+}
+.content{
+    height: inherit;
+    background-color: blue;
+    z-index: 500;
+    overflow: hidden;
+    padding: 5px;
+}
+#cover{
+    height: inherit;
+    background-color: yellow;
+    z-index: 550;
+    transition: 200ms;
+    transition-delay: 150ms;
+    overflow: hidden;
+    position: absolute;
+    text-overflow: clip;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/*Styling Classes*/
+.row{
+    height: 20vh;
+}
+.relative{
+    position: relative;
+}
+.height-inherit{
+    height: inherit;
+}
+.padding-none{
+    padding: 0;
+}
+.welcome{
+    text-transform: uppercase;
+}
+.float-none{
+    float: left !important;
+}
+.margin-space{
+    margin: 15px;
+}
+.my-border{
+    border: 5px solid black;
+}
+
+/*Use this for a second row*/
+/*#cover-two{*/
+/*    height: inherit;*/
+/*    background-color: yellow;*/
+/*    z-index: 550;*/
+/*    transition: 200ms;*/
+/*    transition-delay: 150ms;*/
+/*    overflow: hidden;*/
+/*    position: absolute;*/
+/*    text-overflow: clip;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*}*/
+/*#cover-three{*/
+/*    height: inherit;*/
+/*    background-color: yellow;*/
+/*    z-index: 550;*/
+/*    transition: 200ms;*/
+/*    transition-delay: 150ms;*/
+/*    overflow: hidden;*/
+/*    position: absolute;*/
+/*    text-overflow: clip;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*}*/
